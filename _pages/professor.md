@@ -68,7 +68,7 @@ nav_order: 2
 
 ### **Honors & Awards**
 * **Samsung Best Paper Award**: Bronze Prize (2025), Silver Prize (2020)
-* **Continual learning Challenge for CVPR Workshop**: 1st Place (Supervised Learning Track, 2021)
+* **Continual Learning Challenge for CVPR Workshop**: 1st Place (Supervised Learning Track, 2021)
 * **Dongbu Cultural Foundation Scholarship** (2010, 2011)
 
 <br>

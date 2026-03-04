@@ -50,7 +50,7 @@
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
-    <div class="author">
+   <div class="author">
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -66,16 +66,10 @@
         
         {% comment %} 1. Check if the author is the site owner {% endcomment %}
         {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
+          {% if site.scholar.first_name contains author_first_name %}
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
-
-        {% comment %} 2. Check if the author is a co-first author (marked with *) {% endcomment %}
-        {% assign is_co_first = false %}
-        {% if author.last contains '*' or author.first contains '*' %}
-          {% assign is_co_first = true %}
-        {% endif %}
 
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
@@ -98,15 +92,8 @@
         {%- if author_is_self -%}
           {% comment %} Site owner: Bold {% endcomment %}
           <strong>{{ author.first }} {{ author_last_html }}</strong>
-        {%- elsif is_co_first -%}
-          {% comment %} Co-first: Underline (with link if available) {% endcomment %}
-          {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}"><u>{{ author.first }} {{ author_last_html }}</u></a>
-          {%- else -%}
-            <u>{{ author.first }} {{ author_last_html }}</u>
-          {%- endif -%}
         {%- else -%}
-          {% comment %} Regular authors (with link if available) {% endcomment %}
+          {% comment %} Regular authors (including co-first with *) {% endcomment %}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>
           {%- else -%}

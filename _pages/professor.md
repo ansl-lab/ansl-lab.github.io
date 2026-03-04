@@ -1,66 +1,76 @@
 ---
 layout: page
-title: "Professor Profile"
+title: "Professor"
 permalink: /professor/
 nav: true
 nav_order: 2
 ---
 
-# **Seungjun Shin**
+# **Seungjun Shin (신승준)**
+**Assistant Professor** | AI-Native Systems Lab (ANSL)
+Department of Artificial Intelligence Engineering, Sookmyung Women's University
 
-Welcome to the profile page of Professor Seungjun Shin. Below you'll find an overview of academic qualifications, professional experience, awards, patents, and selected publications.
+---
 
-## Education
+## 🎓 Education
+* **Ph.D. in Electrical Engineering**, POSTECH (2012 – 2018)
+    * *Dissertation: High Dynamic Range Imaging: Dynamic Range Compression and Expansion*
+* **B.S. in Electrical Engineering**, POSTECH (2008 – 2012)
 
-- Integrated M.S. and Ph.D. in Electrical Engineering, Pohang University of Science and Technology (POSTECH), 2012–2018
-  - Ph.D. dissertation: *"High Dynamic Range Imaging: Dynamic Range Compression and Expansion"*
-- Bachelor of Engineering in Electrical Engineering, Pohang University of Science and Technology (POSTECH), 2008–2012
+---
 
-## Professional Experience
+## 💼 Academic & Professional Experience
 
-- **Research Scientist**, TwelveLabs (December 2025 – February 2026)
-  - Training and optimizing large-scale Video Language Models (VLMs).
-  - Conducting research on video understanding, multimodal representation learning, and long-context video modeling.
-  - Collaborating with engineering teams to scale training and improve model efficiency.
+### **Sookmyung Women's University** | *Assistant Professor* (2026.03 – Present)
+* Department of Artificial Intelligence Engineering
+* Director of **AI-Native Systems Lab (ANSL)**
 
-- **Researcher, Project: Neural codec**, Samsung Advanced Institute of Technology, S.LSI (March 2022 – November 2025)
-  - Developed an end-to-end deep learning model for image/video/weight compression.
-  - Built a deep learning-assisted framework for video codec parameter optimization.
-  - Researched and developed on-device generative models, and optimized generative models for Exynos image generation demonstrations at MWC and CES 2024.
-  - Created agents to support efficient deployment of generative models on Exynos platforms.
-  - Developed an AI-based floorplanning optimization framework for chip design.
+### **Twelve Labs** | *Research Scientist* (2025.12 – 2026.02)
+* Trained and optimized large-scale **Video Language Models (VLMs)**.
+* Researched long-context video modeling and multimodal representation learning.
 
-- **Researcher, Project: Autonomous driving**, Samsung Advanced Institute of Technology, S.LSI (December 1919 – March 2022)
-  - Developed a keypoint-based pedestrian detection algorithm for improved localization and robustness.
-  - Built a real-time traffic sign and light detection system using deep learning.
-  - Explored continual learning strategies to enable model adaptation without catastrophic forgetting.
-  - Designed and implemented a parking spot detection system for intelligent vehicle guidance.
+### **Samsung Electronics (S.LSI / SAIT)** | *Researcher* (2019.12 – 2025.11)
+* **Neural Codec & Generative AI**: 
+    * Developed end-to-end deep learning models for image/video/weight compression.
+    * Optimized on-device generative models for **Exynos** (MWC/CES 2024 demos).
+    * Built AI-based floorplanning optimization frameworks for chip design.
+* **Autonomous Driving Group**: 
+    * Developed deep learning-based pedestrian, traffic sign, and light detection systems.
+    * Researched **Continual Learning** strategies for model robustness.
 
-- **CTO (AI algorithm task team)**, LG Display (March 2018 – November 2019)
-  - Developed an AI-based system for detecting and classifying display manufacturing defects.
+### **LG Display** | *CTO AI Algorithm Task Team* (2018.03 – 2019.11)
+* Developed AI vision systems for manufacturing defect detection and classification.
 
-## Fellowships & Awards
+---
 
-- 2025: **Bronze Prize** in the Samsung Best Paper Award.
-- 2021: **1st Place Award** in the Supervised Learning Track at the Workshop on Continual Learning in Computer Vision (CLVISION), **CVPR** 2021.
-- 2020: **Silver Prize** in the Samsung Best Paper Award.
-- 2010, 2011: Recipient of the **Dongbu Cultural Foundation Scholarship**.
+## 🏆 Fellowships & Awards
+* **Samsung Best Paper Award**: Bronze Prize (2025) & Silver Prize (2020)
+* **CVPR CLVISION Workshop**: 1st Place (Supervised Learning Track, 2021)
+* **Dongbu Cultural Foundation Scholarship** (2010, 2011)
 
-## Patents (Granted)
+---
 
-- Image segmentation method and device. *US Patent 12,229,965*, 2025.
-- Apparatus and method for heterogeneous sensor information fusion using deep learning. *KR Patent KR102072757B1*, 2020.
-- Method and apparatus for extracting the region of interest. *US Patent US 12,536,765*, 2026.
+## 📄 Selected Publications
+1.  **S. Shin**, J. Oh, and D. Oh, "**OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM Inference**," *ICML*, 2024.
+2.  **S. Shin**, S. Kim, and D. Oh, "**Efficient Neural Video Representation with Temporally Coherent Modulation**," *ECCV*, 2024.
 
-## Patents (Pending)
+---
 
-- Implicit neural video representation apparatus and method. *US Patent Application US 18/679,066*.
-- Method of compressing large language model and electronic device performing the same. *KR Patent Application KR 10-2025-0051613*.
-- Method for reducing memory usage of large language model and electronic device performing the same. *US Patent Application US 19/222,336*.
-- Electronic device augmenting position information of tokens and its operation method. *US Patent Application US 19/262,902*.
-- Cache data compression method for transformer-based neural network model and electronic device for performing the same. *KR Patent Application KR 10-2025-0047503*.
+## 💡 Patents
 
-## Selected Papers
+### **Granted Patents**
+* **Method and apparatus for extracting the region of interest**
+    * *US Patent 12,536,765* (2026)
+* **Image segmentation method and device**
+    * *US Patent 12,229,965* (2025)
+* **Apparatus and method for heterogeneous sensor information fusion using deep learning**
+    * *KR Patent KR102072757B1* (2020)
 
-1. **S. Shin**, J. Oh, and D. Oh, "OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM Inference," *Proceedings of the Forty-second International Conference on Machine Learning (ICML)*, 2024.
-2. **S. Shin**, S. Kim, and D. Oh, "Efficient Neural Video Representation with Temporally Coherent Modulation," *Proceedings of the European Conference on Computer Vision (ECCV)*, 2024.
+### **Pending Applications**
+* **LLM & Transformer Optimization**
+    * **Method for reducing memory usage of large language model and electronic device performing the same** (*US 19/222,336*)
+    * **Method of compressing large language model and electronic device performing the same** (*KR 10-2025-0051613*)
+    * **Cache data compression method for transformer-based neural network model and electronic device for performing the same** (*KR 10-2025-0047503*)
+    * **Electronic device augmenting position information of tokens and its operation method** (*US 19/262,902*)
+* **Neural Representation**
+    * **Implicit neural video representation apparatus and method** (*US 18/679,066*)

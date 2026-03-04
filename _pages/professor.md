@@ -8,12 +8,14 @@ nav_order: 2
 
 <div class="row">
     <div class="col-sm-8">
+
         # **Seungjun Shin (신승준)**
         Assistant Professor | AI-Native Systems Lab (ANSL)  
         Department of Artificial Intelligence Engineering, Sookmyung Women's University
 
         **Email:** [seungjun@sookmyung.ac.kr](mailto:seungjun@sookmyung.ac.kr)  
         **Office:** 수련교수회관 314호, Sookmyung Women's University
+
     </div>
     <div class="col-sm-4">
         {% include figure.liquid 
@@ -25,7 +27,6 @@ nav_order: 2
 
 <br>
 
----
 ---
 
 <br>

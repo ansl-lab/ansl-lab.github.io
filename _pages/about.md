@@ -9,12 +9,9 @@ profile:
   image: ansl_logo.jpg
   image_circular: false
   more_info: >
-    <p><strong>AI-Native Systems Lab (ANSL)</strong></p>
-    <p>Sookmyung Women's University</p>
-    <p style="margin-top: 10px;">
+    <p style="margin-top: 15px; line-height: 1.6;">
       <i class="fa-solid fa-envelope"></i> <a href="mailto:seungjun@sookmyung.ac.kr">seungjun@sookmyung.ac.kr</a><br>
-      <i class="fa-solid fa-location-dot"></i> 수련교수회관 314호<br>
-      <i class="fa-solid fa-earth-asia"></i> Seoul, South Korea
+      <i class="fa-solid fa-location-dot"></i> 수련교수회관 314호
     </p>
 # selected_papers: true
 # social: true

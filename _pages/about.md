@@ -9,11 +9,27 @@ profile:
   image: ansl_logo.jpg
   image_circular: false
   more_info: >
-    <p><b>Contact</b></p>
-    <p>📧 <a href="mailto:seungjun@sookmyung.ac.kr">seungjun@sookmyung.ac.kr</a></p>
-    <p>📍 Office: 수련교수회관 314호</p>
-    <p>AI-Native Systems Lab (ANSL)</p>
-    <p>Sookmyung Women's University</p>
+    <div style="border-top: 1px solid #eee; margin-top: 15px; padding-top: 15px; font-size: 0.9rem;">
+      <p style="margin-bottom: 10px;">
+        <strong style="color: #333;">AI-Native Systems Lab (ANSL)</strong><br>
+        <span style="color: #666;">Sookmyung Women's University</span>
+      </p>
+      
+      <div style="line-height: 1.8;">
+        <p style="margin: 0;">
+          <i class="fa-solid fa-envelope" style="width: 20px; color: #4285F4;"></i>
+          <a href="mailto:seungjun@sookmyung.ac.kr">seungjun@sookmyung.ac.kr</a>
+        </p>
+        <p style="margin: 0;">
+          <i class="fa-solid fa-location-dot" style="width: 20px; color: #EA4335;"></i>
+          수련교수회관 314호
+        </p>
+        <p style="margin: 0;">
+          <i class="fa-solid fa-building-columns" style="width: 20px; color: #757575;"></i>
+          Seoul, South Korea
+        </p>
+      </div>
+    </div>
 
 # selected_papers: true
 # social: true

@@ -10,6 +10,9 @@ nav_order: 2
 Assistant Professor | AI-Native Systems Lab (ANSL)  
 Department of Artificial Intelligence Engineering, Sookmyung Women's University
 
+**Email:** [seungjun@sookmyung.ac.kr](mailto:seungjun@sookmyung.ac.kr)  
+**Office:** 수련교수회관 314호, Sookmyung Women's University
+
 <br>
 
 ---

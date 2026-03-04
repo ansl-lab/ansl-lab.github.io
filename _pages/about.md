@@ -9,9 +9,11 @@ profile:
   image: ansl_logo.jpg
   image_circular: false
   more_info: >
+    <p><b>Contact</b></p>
+    <p>📧 <a href="mailto:sjshin@sookmyung.ac.kr">sjshin@sookmyung.ac.kr</a></p>
+    <p>📍 Office: Science Bldg. 123 (임시)</p>
     <p>AI-Native Systems Lab (ANSL)</p>
     <p>Sookmyung Women's University</p>
-    <p>Seoul, South Korea</p>
 
 # selected_papers: true
 # social: true

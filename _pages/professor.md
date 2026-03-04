@@ -6,34 +6,17 @@ nav: true
 nav_order: 2
 ---
 
-<div class="row">
-    <div class="col-sm-8">
-
-        # **Seungjun Shin (신승준)**
-        Assistant Professor | AI-Native Systems Lab (ANSL)  
-        Department of Artificial Intelligence Engineering, Sookmyung Women's University
-
-        **Email:** [seungjun@sookmyung.ac.kr](mailto:seungjun@sookmyung.ac.kr)  
-        **Office:** 수련교수회관 314호, Sookmyung Women's University
-
-    </div>
-    <div class="col-sm-4">
-        {% include figure.liquid 
-           path="assets/img/prof_shin.jpg" 
-           class="img-fluid z-depth-1 rounded" 
-           alt="Seungjun Shin" %}
-    </div>
+# **Seungjun Shin (신승준)**
+<div style="float: right; margin-left: 20px; width: 30%;">
+  {% include figure.liquid path="assets/img/prof_shin.jpg" class="img-fluid z-depth-1 rounded" alt="Seungjun Shin" %}
 </div>
 
-<br>
+Assistant Professor | **AI-Native Systems Lab (ANSL)** Department of Artificial Intelligence Engineering, Sookmyung Women's University
 
----
+**Email:** [seungjun@sookmyung.ac.kr](mailto:seungjun@sookmyung.ac.kr)  
+**Office:** 수련교수회관 314호, Sookmyung Women's University
 
-<br>
-
-### **Education**
-* **Ph.D. in Electrical Engineering**, POSTECH (2018)
-* **B.S. in Electrical Engineering**, POSTECH (2012)
+<div style="clear: both;"></div>
 
 <br>
 

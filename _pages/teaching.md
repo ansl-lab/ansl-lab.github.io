@@ -2,14 +2,16 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: false
+description: Courses taught at Sookmyung Women's University.
+nav: true
 nav_order: 6
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## **Spring 2026**
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+---
 
-{% include courses.liquid %}
+### **Object-Oriented Programming (객체지향프로그래밍)**
+* **Section 001**
+* **Section 002**

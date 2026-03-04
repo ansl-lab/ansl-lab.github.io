@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Professor"
+title: "professor"
 permalink: /professor/
 nav: true
 nav_order: 2
@@ -17,6 +17,7 @@ Department of Artificial Intelligence Engineering, Sookmyung Women's University
 * **B.S. in Electrical Engineering**, POSTECH (2012)
 
 ### **Experience**
+
 | Period | Organization | Role |
 | :--- | :--- | :--- |
 | 2026.03 – Present | **Sookmyung Women's University** | Assistant Professor |

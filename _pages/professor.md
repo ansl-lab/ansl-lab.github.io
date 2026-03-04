@@ -26,8 +26,8 @@ Department of Artificial Intelligence Engineering, Sookmyung Women's University
 | 2018.03 – 2019.11 | **LG Display** | Researcher (AI Algorithm Task Team) |
 
 ### **Selected Publications**
-1. **S. Shin**, J. Oh, and D. Oh, "**OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM Inference**," *ICML*, 2024.
-2. **S. Shin**, S. Kim, and D. Oh, "**Efficient Neural Video Representation with Temporally Coherent Modulation**," *ECCV*, 2024.
+1. **S. Shin**, J. Oh, and D. Oh, "**OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM Inference**," *ICML*, 2025.
+2. **S. Shin**, <u>S. Kim</u>, and D. Oh, "**Efficient Neural Video Representation with Temporally Coherent Modulation**," *ECCV*, 2024. <span class="badge badge-warning">Oral</span>
 
 ### **Honors & Awards**
 * **Samsung Best Paper Award**: Bronze Prize (2025), Silver Prize (2020)

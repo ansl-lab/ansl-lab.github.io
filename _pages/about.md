@@ -13,18 +13,18 @@ profile:
     <p>Sookmyung Women's University</p>
     <p>Seoul, South Korea</p>
 
-selected_papers: true
-social: true
+# selected_papers: true
+# social: true
 
 announcements:
   enabled: true
   scrollable: true
   limit: 5
 
-latest_posts:
-  enabled: false
-  scrollable: true
-  limit: 3
+# latest_posts:
+#   enabled: false
+#   scrollable: true
+#   limit: 3
 ---
 
 Welcome to the **AI-Native Systems Lab (ANSL)** at Sookmyung Women's University, directed by [Prof. Seungjun Shin](/professor/). 

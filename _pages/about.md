@@ -42,7 +42,7 @@ At ANSL, we actively conduct research at the intersection of deep learning algor
 * **Efficient AI (On-Device AI)**
     * We focus on making massive AI models—such as Large Language Models (LLMs) and Video Language Models (VLMs)—lightweight and efficient enough to run on resource-constrained edge environments like mobile NPUs.
 
-* **Efficient AI, AI for Smart Manufacturing**
+* **AI for Smart Manufacturing**
     * We apply advanced computer vision and deep learning techniques to industrial environments to automate and optimize manufacturing processes, ensuring robust vision systems for quality control in complex production lines.
 
 * **AI-Native Communications**

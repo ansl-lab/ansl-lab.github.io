@@ -62,13 +62,21 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_first_name = author.first | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-        {%- assign author_last_html = author_last_name -%}
-        {%- assign has_marker = author.last | regex_match: '.*([*∗†‡§¶‖&^]).*' -%}
+        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        
+        {% comment %} 1. Check if the author is the site owner {% endcomment %}
         {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author_first_name %}
+          {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
+
+        {% comment %} 2. Check if the author is a co-first author (marked with *) {% endcomment %}
+        {% assign is_co_first = false %}
+        {% if author.last contains '*' or author.first contains '*' %}
+          {% assign is_co_first = true %}
+        {% endif %}
+
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -86,31 +94,28 @@
           {%- endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
+
         {%- if author_is_self -%}
-          <strong>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </strong>
-        {%- else -%}
-          {%- if has_marker -%}
-            <u>
-          {%- endif -%}
+          {% comment %} Site owner: Bold {% endcomment %}
+          <strong>{{ author.first }} {{ author_last_html }}</strong>
+        {%- elsif is_co_first -%}
+          {% comment %} Co-first: Underline (with link if available) {% endcomment %}
           {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
+            <a href="{{ coauthor_url }}"><u>{{ author.first }} {{ author_last_html }}</u></a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
-          {%- if has_marker -%}
-            </u>
+            <u>{{ author.first }} {{ author_last_html }}</u>
+          {%- endif -%}
+        {%- else -%}
+          {% comment %} Regular authors (with link if available) {% endcomment %}
+          {%- if coauthor_url -%}
+            <a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>
+          {%- else -%}
+            {{ author.first }} {{ author_last_html }}
           {%- endif -%}
         {%- endif -%}
       {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
+      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
       {% if more_authors > 0 %}
         {%- if more_authors > 1 -%}
@@ -144,6 +149,7 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
+
       {% if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"

@@ -25,6 +25,11 @@ Department of Artificial Intelligence Engineering, Sookmyung Women's University
 
 <br>
 
+---
+
+<br>
+
+
 ### **Experience**
 
 | Period | Organization | Role |
@@ -36,9 +41,17 @@ Department of Artificial Intelligence Engineering, Sookmyung Women's University
 
 <br>
 
+---
+
+<br>
+
 ### **Selected Publications**
 1. **S. Shin**, J. Oh, and D. Oh, "**OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM Inference**," *ICML*, 2025.
 2. **S. Shin**, <u>S. Kim</u>, and D. Oh, "**Efficient Neural Video Representation with Temporally Coherent Modulation**," *ECCV*, 2024. <span class="badge badge-warning">Oral</span>
+
+<br>
+
+---
 
 <br>
 
@@ -49,14 +62,16 @@ Department of Artificial Intelligence Engineering, Sookmyung Women's University
 
 <br>
 
+---
+
+<br>
+
 ### **Patents**
 
 **[Granted]**
 * **US 12,536,765**: Method and apparatus for extracting the region of interest (2026)
 * **US 12,229,965**: Image segmentation method and device (2025)
 * **KR 102072757B1**: Heterogeneous sensor information fusion using deep learning (2020)
-
-<br>
 
 **[Selected Applications]**
 * **LLM Optimization**: Memory reduction, Model compression, and Cache optimization (*US 19/222,336, KR 10-2025-0051613, KR 10-2025-0047503*)

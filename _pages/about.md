@@ -10,8 +10,8 @@ profile:
   image_circular: false
   more_info: >
     <p><b>Contact</b></p>
-    <p>📧 <a href="mailto:sjshin@sookmyung.ac.kr">sjshin@sookmyung.ac.kr</a></p>
-    <p>📍 Office: Science Bldg. 123 (임시)</p>
+    <p>📧 <a href="mailto:seungjun@sookmyung.ac.kr">seungjun@sookmyung.ac.kr</a></p>
+    <p>📍 Office: 수련교수회관 Bldg. 314</p>
     <p>AI-Native Systems Lab (ANSL)</p>
     <p>Sookmyung Women's University</p>
 

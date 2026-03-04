@@ -6,17 +6,30 @@ nav: true
 nav_order: 2
 ---
 
-# **Seungjun Shin (신승준)**
-<div style="float: right; margin-left: 20px; width: 30%;">
-  {% include figure.liquid path="assets/img/prof_shin.jpg" class="img-fluid z-depth-1 rounded" alt="Seungjun Shin" %}
+<div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 20px;">
+  <div style="flex: 1;">
+    <h1 style="margin-top: 0;"><strong>Seungjun Shin (신승준)</strong></h1>
+    <p style="font-size: 1.15rem; margin-bottom: 8px;">
+      Assistant Professor | <strong>AI-Native Systems Lab (ANSL)</strong>
+    </p>
+    <p style="margin-bottom: 15px;">
+      Department of Artificial Intelligence Engineering, Sookmyung Women's University
+    </p>
+    <p style="margin-bottom: 5px;">
+      <strong>Email:</strong> <a href="mailto:seungjun@sookmyung.ac.kr">seungjun@sookmyung.ac.kr</a>
+    </p>
+    <p>
+      <strong>Office:</strong> 수련교수회관 314호, Sookmyung Women's University
+    </p>
+  </div>
+
+  <div style="width: 160px; flex-shrink: 0;">
+    {% include figure.liquid 
+       path="assets/img/prof_shin.jpg" 
+       class="img-fluid z-depth-1 rounded" 
+       alt="Seungjun Shin" %}
+  </div>
 </div>
-
-Assistant Professor | **AI-Native Systems Lab (ANSL)** Department of Artificial Intelligence Engineering, Sookmyung Women's University
-
-**Email:** [seungjun@sookmyung.ac.kr](mailto:seungjun@sookmyung.ac.kr)  
-**Office:** 수련교수회관 314호, Sookmyung Women's University
-
-<div style="clear: both;"></div>
 
 <br>
 

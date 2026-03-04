@@ -37,3 +37,19 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+
+.publications .title {
+  margin-bottom: 2px !important; 
+  line-height: 1.2 !important;   
+}
+
+.publications .author {
+  margin-top: 0px !important;    
+  padding-top: 0px !important;
+  font-size: 0.95rem;            
+}
+
+.publications .periodical {
+  margin-top: 1px !important;
+}

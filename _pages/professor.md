@@ -2,6 +2,8 @@
 layout: page
 title: "Professor Profile"
 permalink: /professor/
+nav: true
+nav_order: 2
 ---
 
 # **Seungjun Shin**

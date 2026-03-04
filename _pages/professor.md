@@ -31,7 +31,7 @@ Assistant Professor | **AI-Native Systems Lab (ANSL)** Department of Artificial 
 | :--- | :--- | :--- |
 | 2026.03 – Present | **Sookmyung Women's University** | Assistant Professor |
 | 2025.12 – 2026.02 | **Twelve Labs** | Research Scientist (Video Language model) |
-| 2019.12 – 2025.11 | **Samsung Electronics (S.LSI / SAIT)** | Researcher (Autonomous Driving / Neural Codec ) |
+| 2019.12 – 2025.11 | **Samsung Electronics (S.LSI / SAIT)** | Researcher (Autonomous Driving / Neural Codec) |
 | 2018.03 – 2019.11 | **LG Display** | Researcher (AI Algorithm Task Team) |
 
 <br>

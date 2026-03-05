@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Department of Artificial Intelligence Engineering</a>, Sookmyung Women's University
+subtitle: <a href='#'>Division of Artificial Intelligence Engineering</a>, Sookmyung Women's University
 
 profile:
   align: right

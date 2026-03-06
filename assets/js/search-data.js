@@ -4,27 +4,27 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-professor",
-          title: "professor",
+          title: "Professor",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/professor/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "Courses taught at Sookmyung Women&#39;s University.",
           section: "Navigation",
           handler: () => {

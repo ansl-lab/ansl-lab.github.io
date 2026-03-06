@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "professor"
+title: "Professor"
 permalink: /professor/
 nav: true
 nav_order: 2

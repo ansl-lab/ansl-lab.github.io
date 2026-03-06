@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Courses taught at Sookmyung Women's University.
 nav: true
 nav_order: 4

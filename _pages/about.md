@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Division of Artificial Intelligence Engineering</a>, Sookmyung Women's University
 

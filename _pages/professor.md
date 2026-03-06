@@ -38,6 +38,19 @@ nav_order: 2
 <br>
 
 
+### **Education**
+
+| Period | Organization | Degree |
+| :--- | :--- | :--- |
+| 2012.03 – 2018.02 | **POSTECH** | Ph.D. in Electrical Engineering (Integrated M.S./Ph.D.) <br> *Advisor: Woo-Jin Song* |
+| 2008.03 – 2012.02 | **POSTECH** | B.S. in Electrical Engineering |
+
+<br>
+
+---
+
+<br>
+
 ### **Experience**
 
 | Period | Organization | Role |

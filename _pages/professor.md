@@ -40,10 +40,10 @@ nav_order: 2
 
 ### **Education**
 
-| Period | Organization | Degree |
-| :--- | :--- | :--- |
-| 2012.03 – 2018.02 | **POSTECH** | Ph.D. in Electrical Engineering (Integrated M.S./Ph.D.) <br> *Advisor: Woo-Jin Song* |
-| 2008.03 – 2012.02 | **POSTECH** | B.S. in Electrical Engineering |
+| Organization | Degree |
+| :--- | :--- |
+| **POSTECH** | Ph.D. in Electrical Engineering (Integrated M.S./Ph.D.) <br> *Advisor: Woo-Jin Song* |
+| **POSTECH** | B.S. in Electrical Engineering |
 
 <br>
 
@@ -53,12 +53,12 @@ nav_order: 2
 
 ### **Experience**
 
-| Period | Organization | Role |
-| :--- | :--- | :--- |
-| 2026.03 – Present | **Sookmyung Women's University** | Assistant Professor |
-| 2025.12 – 2026.02 | **TwelveLabs** | Research Scientist (Video Language model) |
-| 2019.12 – 2025.11 | **Samsung Electronics (S.LSI / SAIT)** | AI Researcher (Autonomous Driving / Neural Codec) |
-| 2018.03 – 2019.11 | **LG Display** | AI Researcher (AI Algorithm Task) |
+| Organization | Role |
+| :--- | :--- |
+| **Sookmyung Women's University** | Assistant Professor |
+| **TwelveLabs** | Research Scientist (Video Language model) |
+| **Samsung Electronics (SAIT / S.LSI)** | AI Researcher (Autonomous Driving / Neural Codec / AI System) |
+| **LG Display** | AI Researcher (AI Algorithm Task) |
 
 <br>
 

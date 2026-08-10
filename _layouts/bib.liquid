@@ -9,7 +9,7 @@
         {% assign is_preprint = true %}
       {% endif %}
       {%- if is_preprint -%}
-        <abbr class="badge rounded w-100" title="Preprint"> <i class="ai ai-arxiv" aria-hidden="true"></i><span class="ml-1">Preprint</span> </abbr>
+        <abbr class="badge rounded w-100" title="Preprint"> <i class="fa-solid fa-file-lines" aria-hidden="true"></i><span class="ml-1">Preprint</span> </abbr>
       {%- elsif entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}

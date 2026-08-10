@@ -44,7 +44,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-hidden-state-relative-actuator-bounds-for-pid-style-activation-steering-in-language-models-has-been-accepted-to-ieee-signal-processing-letters",
           title: 'Our paper, “Hidden-State-Relative Actuator Bounds for PID-Style Activation Steering in Language Models,” has...',
           description: "",
-          section: "News",},{id: "news-our-paper-restorekv-recovering-full-cache-behavior-under-aggressive-query-agnostic-kv-cache-eviction-is-now-available-on-arxiv-as-a-preprint-restorekv-augments-aggressive-query-agnostic-kv-cache-eviction-with-a-compact-learned-restore-cache-recovering-full-cache-behavior-under-the-same-budget-it-is-currently-ranked-1st-on-the-nvidia-kvpress-leaderboard-which-compares-kv-cache-compression-methods-for-long-context-llm-inference",
+          section: "News",},{id: "news-our-paper-restorekv-recovering-full-cache-behavior-under-aggressive-query-agnostic-kv-cache-eviction-is-now-available-on-arxiv-as-a-preprint-and-is-currently-ranked-1st-on-the-nvidia-kvpress-leaderboard",
           title: 'Our paper, “RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction”, is...',
           description: "",
           section: "News",},{id: "projects-project-1",

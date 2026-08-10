@@ -3,7 +3,14 @@
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
-      {%- if entry.abbr -%}
+      {% assign journal_status = entry.journal | default: '' | downcase %}
+      {% assign is_preprint = false %}
+      {% if entry.arxiv or journal_status contains 'arxiv' or journal_status contains 'under-review' %}
+        {% assign is_preprint = true %}
+      {% endif %}
+      {%- if is_preprint -%}
+        <abbr class="badge rounded w-100" title="Preprint"> <i class="ai ai-arxiv" aria-hidden="true"></i><span class="ml-1">Preprint</span> </abbr>
+      {%- elsif entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
@@ -63,7 +70,7 @@
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_first_name = author.first | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        
+
         {% comment %} 1. Check if the author is the site owner {% endcomment %}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author_first_name %}
